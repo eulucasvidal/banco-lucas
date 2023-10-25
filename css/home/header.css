@@ -1,21 +1,36 @@
 
 .header-bg{
-    background-color: aqua;
+    background:#051531;
 }
 .header{
     display: flex;
     align-items: center;
+    color: #FFFFFF;
     gap: 40px;
     height: 100px;
-    background-color: aquamarine;
+    
 }
 .header-container{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    gap: 30px;
     width: 1280px;
 }
 .header-menu{
     display: flex;
     gap: 35px;
+}
+@media(max-width:1000px){
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-container{
+        width: auto;
+    }
+    .header-menu{
+        display: none;
+    }
 }

@@ -1,7 +1,9 @@
 /*Assets Utilidades*/
 @import './assets/utilidades/componentes.css';
+@import './assets/utilidades/tipografia.css';
 /*Assets Botoes*/
 @import './assets/botoes/botao-global.css';
+@import './assets/botoes/botao-menu.css';
 
 /*Global*/
 @import './global/global.css';
