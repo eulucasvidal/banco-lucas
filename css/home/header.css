@@ -1,0 +1,21 @@
+
+.header-bg{
+    background-color: aqua;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 1280px;
+}
+.header-menu{
+    display: flex;
+    gap: 35px;
+}
