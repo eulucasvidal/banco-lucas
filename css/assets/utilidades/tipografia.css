@@ -19,6 +19,9 @@
 .font-1-exl{
   font: 100 4.5rem/1.2 'M PLUS 1', sans-serif;
 }
-.font-2{
+.font-2-xs{
+  font:300 0.8rem/1.2rem 'Red Hat Display', sans-serif;
+}
+.font-2-s{
   font:300 1rem/1.2rem 'Red Hat Display', sans-serif;
 }

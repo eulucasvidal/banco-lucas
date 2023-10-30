@@ -1,0 +1,17 @@
+.introducao-bg1{
+        background:#051531;
+}
+.introducao{
+    background-image: url(../../img/background/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: white;
+}
+.introducao-conteudo{
+    display: grid;
+    gap: 15px;
+}
