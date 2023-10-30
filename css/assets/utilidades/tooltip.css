@@ -1,0 +1,9 @@
+
+.dropdown-menu{
+    position: absolute;
+    display: grid;
+    gap: 15px;
+    padding: 15px;
+    background: #3F98E1;
+    border-radius: 10px;
+}
