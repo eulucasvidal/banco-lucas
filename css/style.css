@@ -5,6 +5,7 @@
 /*Assets Botoes*/
 @import './assets/botoes/botao-global.css';
 @import './assets/botoes/botao-menu.css';
+@import './assets/botoes/botao-app.css';
 
 /*Global*/
 @import './global/global.css';

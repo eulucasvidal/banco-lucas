@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
   color: white;
@@ -16,4 +17,10 @@
 .introducao-conteudo {
   display: grid;
   gap: 20px;
+}
+@media (max-width: 1000px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
