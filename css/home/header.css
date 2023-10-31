@@ -29,6 +29,7 @@
     }
     .header-container{
         width: auto;
+        gap: 10px;
     }
     .header-menu{
         display: none;

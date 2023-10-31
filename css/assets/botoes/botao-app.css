@@ -19,6 +19,7 @@
     background: #FFFFFF;
     cursor: pointer;
     gap:5px;
+    color: #000000;
 }
 
 .btn-app:hover{
