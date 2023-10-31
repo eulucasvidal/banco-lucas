@@ -1,17 +1,19 @@
-.introducao-bg1{
-        background:#051531;
+.introducao-bg1 {
+  background: #051531;
 }
-.introducao{
-    background-image: url(../../img/background/background.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    color: white;
+.introducao {
+  background-image: url(../../img/background/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
 }
-.introducao-conteudo{
-    display: grid;
-    gap: 15px;
+.introducao-conteudo {
+  display: grid;
+  gap: 20px;
 }
