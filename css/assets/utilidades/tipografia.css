@@ -1,8 +1,12 @@
 .font-1-xs{
   font: 300 1rem/1.2 'M PLUS 1', sans-serif;
 }
-.font-1-s{
+.font-1-s,
+.font-1-sb{
   font: 300 1.125rem/1.2 'M PLUS 1', sans-serif;
+}
+.font-1-sb{
+  font-weight: 500;
 }
 .font-1-m{
   font: 300 1.5rem/1.2 'M PLUS 1', sans-serif;
