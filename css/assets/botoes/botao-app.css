@@ -1,8 +1,5 @@
-.btn-introducao{
-    display: grid;
-    gap: 15px;
-}
-.btn-introducao div{
+
+.container-btn-app{
     display: flex;
     gap: 20px;
 }
