@@ -1,10 +1,10 @@
 .app-bg{
-    background: #F2F2F2;
+    background: var(--cor-p2);
     padding: 30px;
 }
 .app{
-    background: #174B9F;
-    color: #F2F2F2;
+    background: var(--cor-2);
+    color: var(--cor-p1);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;

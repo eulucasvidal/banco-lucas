@@ -2,9 +2,9 @@
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  color: #e8e8e8;
+  color: var(--cor-p1);
   z-index: 1;
-  background: #172d52;
+  background: var(--cor-2);
   position: relative;
   transition: all 250ms;
   overflow: hidden;
@@ -26,7 +26,7 @@
   transition: all 250ms;
 }
 .btn-global:hover{
-    border-color: #3F98E1;
+    border-color: var(--cor-1);
 }
 .btn-global:hover::before {
   width: 100%;

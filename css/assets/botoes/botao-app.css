@@ -13,12 +13,12 @@
     padding: 8px 12px;
     border-radius: 5px;
     border: none;
-    background: #FFFFFF;
+    background: var(--cor-p1);
     cursor: pointer;
     gap:5px;
-    color: #000000;
+    color: var(--cor-p4);
 }
 
 .btn-app:hover{
-    background: #F2F2F2;
+    background: var(--cor-p3);
 }
