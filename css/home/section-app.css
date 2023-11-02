@@ -31,3 +31,19 @@
   justify-content: center;
   gap: 40px;
 }
+.app-topicos-txt{
+    display: grid;
+    gap: 10px;
+    max-width: max-content;
+}
+@media(max-width:1000px){
+    .app{
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+@media(max-width:650px){
+    .app-topicos{
+        grid-template-columns: 1fr;
+    }
+}
