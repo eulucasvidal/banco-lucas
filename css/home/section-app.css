@@ -1,33 +1,33 @@
-.app-bg{
-    background: var(--cor-p2);
-    padding: 30px;
+.app-bg {
+  background: var(--cor-p2);
+  padding: 30px;
 }
-.app{
-    background: var(--cor-2);
-    color: var(--cor-p1);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    padding: 60px;
-    
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  background: var(--cor-2);
+  color: var(--cor-p1);
+  box-shadow: 0px 4px 16px 0 #0000009f;
+  border-radius: 50px;
+  padding: 60px;
 }
-.app-mockups{
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    gap: 30px;
+.app-mockups {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
 }
-.app-conteudo{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
+.app-conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
 }
-.app-topicos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+.app-topicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
