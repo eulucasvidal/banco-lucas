@@ -1,7 +1,30 @@
-.container{
-    max-width: 1280px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  max-width: 1280px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo-1 {
+  font: 300 4.5rem/1.1 "M PLUS 1", sans-serif;
+  color: var(--cor-p1);
+}
+.titulo-2{
+  font: 300 3rem/1.2 'M PLUS 1', sans-serif;
+}
+.span-txt1,
+.span-txt2 {
+  font: 300 1rem/1.2 "M PLUS 1", sans-serif;
+  text-transform: uppercase;
+  color:var(--cor-p1);
+}
+.span-txt2{
+    color: var(--cor-p4);
+}
+
+@media (max-width: 1000px) {
+  .titulo-1 {
+    font: 300 3.7rem/1.1 "M PLUS 1", sans-serif;
+  }
 }
