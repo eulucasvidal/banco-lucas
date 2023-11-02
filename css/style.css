@@ -2,6 +2,8 @@
 @import './assets/utilidades/componentes.css';
 @import './assets/utilidades/tipografia.css';
 @import './assets/utilidades/tooltip.css';
+@import './assets/utilidades/cores.css';
+
 /*Assets Botoes*/
 @import './assets/botoes/botao-global.css';
 @import './assets/botoes/botao-menu.css';
