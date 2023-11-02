@@ -41,6 +41,9 @@
         grid-template-columns: 1fr;
         gap: 60px;
     }
+    .app-mockups{
+      grid-row: 2;
+    }
 }
 @media(max-width:650px){
     .app-topicos{
