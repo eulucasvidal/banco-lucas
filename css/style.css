@@ -14,6 +14,7 @@
 
 
 /*Home*/
-@import './home/header.css';
-@import './home/introducao.css';
+@import './home/section-header.css';
+@import './home/section-introducao.css';
 @import './home/section-app.css';
+@import './home/section-credito.css';

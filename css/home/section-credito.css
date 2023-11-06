@@ -1,0 +1,17 @@
+.creditos-bg{
+    background: var(--cor-p3);
+}
+.creditos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.creditos-conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:50px;
+}
