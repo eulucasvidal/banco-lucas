@@ -9,9 +9,23 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.creditos-destaque{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
 .creditos-conteudo{
     display: grid;
     grid-template-columns: 1fr;
     gap:50px;
+}
+
+@media(max-width:1000px){
+    .creditos{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .creditos-destaque{
+        justify-items: center;
+    }
 }
