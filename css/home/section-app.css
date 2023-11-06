@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   gap: 40px;
 }
 .app-topicos-txt{
@@ -46,6 +46,9 @@
     }
 }
 @media(max-width:650px){
+  .app{
+    border-radius: 25px;
+  }
     .app-topicos{
         grid-template-columns: 1fr;
     }

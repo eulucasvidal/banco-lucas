@@ -22,7 +22,11 @@
 .span-txt2{
     color: var(--cor-p4);
 }
-
+.link{
+  color: var(--cor-1);
+  text-decoration: underline;
+  cursor: pointer;
+}
 @media (max-width: 1000px) {
   .titulo-1 {
     font: 300 3.7rem/1.1 "M PLUS 1", sans-serif;
