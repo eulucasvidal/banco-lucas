@@ -1,0 +1,35 @@
+.vantagens{
+    display: grid;
+    gap: 50px;
+}
+.item-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+    background: url(../../img/background/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+.item-1 div{
+    display: grid;
+    gap: 30px;
+}
+.vantagens-itens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px ;
+}
+.item-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+
+    border-radius: 50px;
+    background: #81D9F4;
+    align-items: center;
+    justify-items: center;
+}
