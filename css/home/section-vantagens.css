@@ -23,21 +23,27 @@
 }
 .item-1 {
   grid-template-columns: 1fr 1fr;
-  background: url(../../img/background/background.png);
+  background: url(../../img/background/background-1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .item-2,
-.item-3{
+.item-3 {
   grid-template-columns: 1fr;
 }
-.item-2{
-    background: linear-gradient(to right,#6ABAD9, #81D9F4);
+.item-2 {
+  background: url(../../img/background/background-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.item-3{
-    background:linear-gradient(to right, var(--cor-1), var(--cor-2),  var(--cor-3));
+.item-3 {
+  background: url(../../img/background/background-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (max-width: 1000px) {
   .vantagens-conteudo {

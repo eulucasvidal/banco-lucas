@@ -2,7 +2,7 @@
   background: var(--cor-3);
 }
 .introducao {
-  background-image: url(../../img/background/background.png);
+  background: url(../../img/background/background-1.png);
   background-repeat: repeat-y;
   background-size: contain;
   background-position: center;
