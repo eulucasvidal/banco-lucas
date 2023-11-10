@@ -22,8 +22,12 @@
 .font-1-lb{
   font-weight: 500;
 }
-.font-1-xl{
+.font-1-xl,
+.font-1-xlb{
   font: 300 3rem/1.2 'M PLUS 1', sans-serif;
+}
+.font-1-xlb{
+  font-weight: 400;
 }
 .font-1-xxl{
   font: 300 4rem/1.2 'M PLUS 1', sans-serif;
