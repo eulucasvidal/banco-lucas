@@ -1,6 +1,7 @@
-
 .header-bg{
     background:var(--cor-3);
+    border-bottom: 1px solid var(--cor-1);
+
 }
 .header{
     display: flex;
@@ -8,6 +9,7 @@
     color: var(--cor-p1);
     gap: 40px;
     height: 100px;
+    padding: 0px 30px;
 }
 .header-container{
     display: flex;
