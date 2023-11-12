@@ -1,65 +1,67 @@
-.header-bg{
-    background:var(--cor-3);
-    border-bottom: 1px solid var(--cor-1);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+.header-bg {
+  background: var(--cor-3);
+  border-bottom: 1px solid var(--cor-1);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
-.header{
-    display: flex;
-    align-items: center;
-    color: var(--cor-p1);
-    gap: 40px;
-    height: 100px;
-    padding: 0px 30px;
+.header {
+  display: flex;
+  align-items: center;
+  color: var(--cor-p1);
+  gap: 40px;
+  height: 100px;
+  padding: 0px 30px;
 }
-.header-container{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    gap: 30px;
-    width: 1280px;
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 1280px;
 }
-.header-menu{
-    display: flex;
-    gap: 35px;
+.header-menu {
+  display: flex;
+  gap: 35px;
 }
-.header-menu{
-    display: flex;
-    gap: 35px;
+.header-menu a {
+  border-bottom: 1px solid transparent;
+}
+.header-menu a:hover {
+  border-bottom: 1px solid var(--cor-1);
 }
 
-@media(max-width:1000px){
-    .header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .header-container{
-        width: auto;
-        gap: 10px;
-    }
-    .header-menu{
-        display: none;
-        position: absolute;
-        top: 100px;
-        width: 100%;
-        right: 0;
-        padding-left: 30px;
-        height: calc(100vh - 100px);
-        background: var(--cor-3);
-        z-index: 100;
-    }
-    .header-menu a{
-        display: grid;
-        margin-top: 60px;
-        font: 100 3rem/1.2 'M PLUS 1', sans-serif;
-        border-bottom: 1px solid transparent;
-    }
-    .header-menu a:hover{
-        border-color: var(--cor-p1);
-    }
-    [data-menu="suave"].ativo .header-menu{
-        display: block;
-    }
+@media (max-width: 1000px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-container {
+    width: auto;
+    gap: 10px;
+  }
+  .header-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    right: 0;
+    padding-left: 30px;
+    height: calc(100vh - 100px);
+    background: var(--cor-3);
+    z-index: 100;
+  }
+  .header-menu a {
+    display: grid;
+    margin-top: 60px;
+    font: 100 3rem/1.2 "M PLUS 1", sans-serif;
+    border-bottom: 1px solid transparent;
+  }
+  .header-menu a:hover {
+    border-color: var(--cor-p1);
+  }
+  [data-menu="suave"].ativo .header-menu {
+    display: block;
+  }
 }
