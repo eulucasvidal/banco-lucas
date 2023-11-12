@@ -10,12 +10,18 @@
 }
 .footer-conteudo {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3,1fr);
   align-items: center;
-  justify-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.footer-conteudo p{
+  width: 30ch;
 }
 .redes-sociais {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 .redes-sociais img{
