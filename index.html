@@ -265,37 +265,45 @@
         </section>
       </aside>
     </main>
-    <footer>
-      <div>
-        <div><img src="./img/logotipo/logotipo.svg" alt="" /></div>
-        <p>Seja o primeiro a ouvir nossas notícias bancárias à vista</p>
-        <div>
-          <label id="email" for="email"></label>
-          <input type="email" name="email" id="email" />
-          <input type="button" value="Enviar" />
+    <footer class="footer-bg">
+      <section class="footer container">
+        <div class="footer-conteudo">
+          <img src="./img/logotipo/logotipo.svg" alt="" />
+          <p class="font-1-mb">
+            Seja o primeiro a ouvir nossas notícias bancárias à vista
+          </p>
+          <div>
+            <label class="label" id="email" for="email">endereço de email</label>
+            <div class="input-container">
+              <input class="input" type="email" name="email" id="email" placeholder="Digite o seu email" />
+              <input class="btn-global" type="button" value="Enviar" />
+            </div>
+          </div>
         </div>
-      </div>
-      <div>
-        <p>Fique conectado com qualquer pessoa e em qualquer lugar</p>
-        <div>
-          <img src="./img/redes-sociais/facebook.svg" alt="" />
-          <img src="./img/redes-sociais/instagram.svg" alt="">
-          <img src="./img/redes-sociais/twitter.svg" alt="">
-          <img src="./img/redes-sociais/youtube.svg" alt="">
+        <div class="footer-conteudo">
+          <p class="font-1-mb">
+            Fique conectado com qualquer pessoa e em qualquer lugar
+          </p>
+          <div class="redes-sociais">
+            <img src="./img/redes-sociais/facebook.svg" alt="" />
+            <img src="./img/redes-sociais/instagram.svg" alt="" />
+            <img src="./img/redes-sociais/twitter.svg" alt="" />
+            <img src="./img/redes-sociais/youtube.svg" alt="" />
+          </div>
+          <div class="container-btn-app">
+            <a href="#"
+              ><button class="btn-app">
+                <img src="./img/icones/apple.svg" alt="" />apple store
+              </button></a
+            >
+            <a href="#"
+              ><button class="btn-app">
+                <img src="./img/icones/playstore.svg" alt="" />google play
+              </button></a
+            >
+          </div>
         </div>
-        <div class="container-btn-app">
-          <a href="#"
-            ><button class="btn-app">
-              <img src="./img/icones/apple.svg" alt="" />apple store
-            </button></a
-          >
-          <a href="#"
-            ><button class="btn-app">
-              <img src="./img/icones/playstore.svg" alt="" />google play
-            </button></a
-          >
-        </div>
-      </div>
+      </section>
     </footer>
     <script type="module" src="js/script.js"></script>
   </body>

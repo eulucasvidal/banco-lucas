@@ -11,10 +11,10 @@
 
 /*Global*/
 @import './global/global.css';
-
+@import './global/section-header.css';
+@import './global/section-footer.css';
 
 /*Home*/
-@import './home/section-header.css';
 @import './home/section-introducao.css';
 @import './home/section-app.css';
 @import './home/section-credito.css';
