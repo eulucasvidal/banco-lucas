@@ -29,6 +29,7 @@
 }
 .header-menu a:hover {
   border-bottom: 1px solid var(--cor-1);
+  transition: 0.8s;
 }
 
 @media (max-width: 1000px) {
@@ -57,9 +58,6 @@
     margin-top: 60px;
     font: 100 3rem/1.2 "M PLUS 1", sans-serif;
     border-bottom: 1px solid transparent;
-  }
-  .header-menu a:hover {
-    border-color: var(--cor-p1);
   }
   [data-menu="suave"].ativo .header-menu {
     display: block;
