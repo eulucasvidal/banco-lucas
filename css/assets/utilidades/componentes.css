@@ -9,27 +9,20 @@
   font: 300 4.5rem/1.1 "M PLUS 1", sans-serif;
   color: var(--cor-p1);
 }
-.titulo-2{
-  font: 300 3rem/1.2 'M PLUS 1', sans-serif;
+.titulo-2 {
+  font: 300 3rem/1.2 "M PLUS 1", sans-serif;
 }
-
-.span-txt1,
-.span-txt2 {
+.span-txt1 {
   font: 500 1rem/1.2 "M PLUS 1", sans-serif;
   text-transform: uppercase;
-  color:var(--cor-p1);
-}
-.span-txt1{
+  color: var(--cor-p1);
   width: max-content;
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.span-txt2{
-    color: var(--cor-p4);
-}
-.link{
+.span-txt1 .link {
   color: var(--cor-1);
   text-decoration: underline;
   cursor: pointer;
