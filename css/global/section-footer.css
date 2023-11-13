@@ -4,15 +4,15 @@
 
 .footer {
   display: grid;
-  align-items: center;
-  justify-items: center;
+  align-content: center;
+  justify-content: center;
   gap: 60px;
 }
 .footer-conteudo {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   gap: 60px;
 }
 .footer-conteudo p{
@@ -49,6 +49,7 @@
 @media(max-width:1000px){
     .footer-conteudo{
         grid-template-columns: 1fr;
+        justify-items: center;
         gap: 30px;
         text-align: center;
     }
